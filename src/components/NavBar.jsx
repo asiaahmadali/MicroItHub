@@ -4,7 +4,7 @@ function NavBar() {
   
   return (
     <>
-      <nav className="flex items-center gap-[250px] w-full fixed top-0 left-0 z-10 p-5 bg-gradient-to-r from-white  to-black shadow-lg">
+      <nav className="flex h-[100px] items-center gap-[250px] w-full  top-0 left-0  p-5 bg-gradient-to-r from-white  to-black shadow-lg">
         <img className="h-[70px] w-[150px]" src="./images/MicroLogo.png" alt="logo" />
 
         {/* nav items */}
