@@ -21,7 +21,7 @@ function Servicecard(Props) {
         </div>
 
         {/* Blue hover effect with opacity */}
-        <div className="absolute bottom-0 left-0 right-0 h-0 bg-blue-600  group-hover:h-[100%] group-hover:opacity-60 transition-all duration-500 z-0"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-0 bg-blue-700  group-hover:h-[100%]  transition-all duration-500 z-0"></div>
       </div>
     </>
   );

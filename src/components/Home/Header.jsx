@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa';
 function Header() {
     return (
       <>
-        <div className="flex justify-between mb-[50px] h-auto bg-gradient-to-r from-blue-950 via-blue-900 to-black text-white pt-[100px]">
+        <div style={{ backgroundImage: "url('/images/hero_bg_2.jpg')"}} className="flex justify-between mb-[50px] h-auto bg-gradient-to-r from-blue-950 via-blue-900 to-black text-white pt-[100px]">
           {/* Text Content Section */}
           <div className="flex flex-col justify-center items-start w-3/4 px-10 space-y-6 z-10 pb-[100px]">
             <p className="text-xl  tracking-wide text-purple-400">WE DREAM | WE DESIGN | WE DEVELOP | WE DELIVER</p>

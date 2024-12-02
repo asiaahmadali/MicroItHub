@@ -15,7 +15,7 @@ function Services()
     const linkcontent = "Learn More" ;
 
     return <>
-        <div>
+        <div className="mb-[100px]">
               <div className="flex items-center justify-center gap-0">
                   <span className="w-[40px] h-0.5 bg-blue-500"></span>
                   <p className="text-blue-500  font-semibold mx-4">OUR SERVICES</p>
