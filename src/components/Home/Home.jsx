@@ -1,12 +1,12 @@
 import NavBar from "../NavBar";
-// import Header from "./Header";
+import Header from "./Header";
 import Services from "./Services";
 
 function Home()
 {
     return <>
        <NavBar></NavBar>
-       {/* <Header></Header> */}
+       <Header></Header>
        <Services></Services>
     </>
 }
