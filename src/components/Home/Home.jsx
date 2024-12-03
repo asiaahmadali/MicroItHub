@@ -3,6 +3,7 @@ import Header from "./Header";
 import Services from "./Services";
 import CompanyIntro from "./Company-Into";
 import MoreInfo from "./More-Info";
+import Process from "./Process";
 
 function Home()
 {
@@ -12,6 +13,7 @@ function Home()
        <Services></Services>
        <CompanyIntro></CompanyIntro>
        <MoreInfo></MoreInfo>
+       <Process></Process>
     </>
 }
 

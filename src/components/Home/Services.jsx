@@ -15,7 +15,7 @@ function Services()
     const linkcontent = "Learn More" ;
 
     return <>
-        <div className="mb-[100px]">
+        <div className="md:mb-[100px] mb-[30px]">
               <div className="flex items-center justify-center gap-0">
                   <span className="w-[40px] h-0.5 bg-blue-500"></span>
                   <p className="text-blue-500  font-semibold mx-4">OUR SERVICES</p>
@@ -23,11 +23,11 @@ function Services()
               </div>
 
                <div className="flex items-center justify-center mt-[20px] mb-[20px]">
-                  <h1 className="text-center w-[550px] text-blue-950 text-4xl font-bold">We provide All-in-one Solution for every IT job</h1>
+                  <h1 className="text-center w-[550px] text-blue-950 text-2xl md:text-4xl font-bold">We provide All-in-one Solution for every IT job</h1>
                </div>
  
                  {/* cards div */}
-               <div className="flex md:flex-row  justify-center flex-col gap-[20px] mt-[50px]">
+               <div className="flex md:flex-row items-center md:items-stretch justify-center flex-col gap-[20px] mt-[50px]">
                      <Servicecard head={h1} para={p1} link={linkcontent}></Servicecard>
                      <Servicecard head={h2} para={p2} link={linkcontent}></Servicecard>
                      <Servicecard head={h3} para={p3} link={linkcontent}></Servicecard>

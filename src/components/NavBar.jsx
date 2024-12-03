@@ -61,11 +61,11 @@ function NavBar() {
 
         {/* Mobile Menu Items */}
         <ul className="space-y-10 text-xl">
-          <Link to="/" className="text-white hover:text-gray-300 cursor-pointer">HOME</Link>
-          <Link to="/services" className="text-white hover:text-gray-300 cursor-pointer">SERVICES</Link>
-          <Link to="/careers" className="text-white hover:text-gray-300 cursor-pointer">CAREERS</Link>
-          <Link to="/aboutUs" className="text-white hover:text-gray-300 cursor-pointer">ABOUT US</Link>
-          <Link to="/contactUs" className="text-white hover:text-gray-300 cursor-pointer">CONTACT US</Link>
+          <li><Link to="/" className="text-white hover:text-gray-300 cursor-pointer">HOME</Link></li>
+          <li><Link to="/services" className="text-white hover:text-gray-300 cursor-pointer">SERVICES</Link></li>
+          <li><Link to="/careers" className="text-white hover:text-gray-300 cursor-pointer">CAREERS</Link></li>
+          <li><Link to="/aboutUs" className="text-white hover:text-gray-300 cursor-pointer">ABOUT US</Link></li>
+          <li><Link to="/contactUs" className="text-white hover:text-gray-300 cursor-pointer">CONTACT US</Link></li>
         </ul>
       </div>
 
