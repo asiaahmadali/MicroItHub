@@ -56,7 +56,7 @@ function ServicesRight() {
 
         {/* 3rd box */}
         <div style={{ backgroundImage: "url('/images/contact-banner.jpg')"}} className='flex bg-cover bg-center rounded-[10px] h-[450px] flex-col gap-[35px] text-white items-center justify-center'>
-              <p className='text-[22px] font-semibold'>Cotact Us Now</p>
+              <p className='text-[22px] font-semibold'>Contact Us Now</p>
               <h1 className='text-4xl font-bold'>You Need Help?</h1>
                  <button className='text-white hover:bg-gray-100 hover:text-blue-950 hover:cursor-pointer rounded-[10px] text-[18px]  font-semibold p-[15px] flex gap-[5px] bg-blue-600 items-center justify-center'>
                       <p>Get a Quote</p>
