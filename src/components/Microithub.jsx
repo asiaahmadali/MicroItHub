@@ -1,5 +1,5 @@
-import SoftwareDev from "./SoftwareDev/SoftwareDev";
-
+// import SoftwareDev from "./SoftwareDev/SoftwareDev";
+import AppDev from "./AppDev/AppDev";
 // import { Routes, Route } from "react-router-dom";
 // import About from "./AboutUs/About";
 // import ContactUs from "./ContactUs/ContactUs";
@@ -16,7 +16,8 @@ function Microithub()
           <Route path="/contactUs" element={<ContactUs></ContactUs>} ></Route>
           <Route path="/careers" element={<Careers></Careers>} ></Route>
     </Routes> */}
-     <SoftwareDev></SoftwareDev>
+     {/* <SoftwareDev></SoftwareDev> */}
+     <AppDev></AppDev>
      
     </>
 }
