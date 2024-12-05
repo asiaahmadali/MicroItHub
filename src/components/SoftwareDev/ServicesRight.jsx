@@ -59,7 +59,7 @@ function ServicesRight() {
               <p className='text-[22px] font-semibold'>Cotact Us Now</p>
               <h1 className='text-4xl font-bold'>You Need Help?</h1>
                  <button className='text-white hover:bg-gray-100 hover:text-blue-950 hover:cursor-pointer rounded-[10px] text-[18px]  font-semibold p-[15px] flex gap-[5px] bg-blue-600 items-center justify-center'>
-                      <p>Get a Quote</p>
+                      <p>Get a Quotenn</p>
                       <AiOutlineArrowRight></AiOutlineArrowRight>
                  </button>
         </div>
