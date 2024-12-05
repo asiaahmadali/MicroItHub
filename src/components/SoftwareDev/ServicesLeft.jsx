@@ -92,7 +92,7 @@ function ServicesLeft()
              {/*4rth para div */}
                 <div>
                       <p className='text-gray-500  text-[16px] leading-[25px] md:leading-[30px] md:text-[18px] '>Our software development approach is designed to deliver robust, high-performing 
-                        solutions that enmpower your business to excel in a competitive landscape.</p>
+                        solutions that empower your business to excel in a competitive landscape.</p>
 
                         <div className='mt-[30px] flex flex-col gap-[30px]'>
                              <h1 className='text-blue-950 text-2xl md:text-4xl font-bold'>Benefits With Our Service</h1>
