@@ -4,6 +4,7 @@ import Services from "./Services";
 import CompanyIntro from "./Company-Into";
 import MoreInfo from "./More-Info";
 import Process from "./Process";
+import ChooseUs from "./ChooseUs";
 
 function Home()
 {
@@ -14,6 +15,7 @@ function Home()
        <CompanyIntro></CompanyIntro>
        <MoreInfo></MoreInfo>
        <Process></Process>
+       <ChooseUs></ChooseUs>
     </>
 }
 

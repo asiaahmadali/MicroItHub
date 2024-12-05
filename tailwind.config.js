@@ -9,6 +9,11 @@ export default {
           screens:{
             'xl1440':'1440px' 
           },
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+            roboto: ['Roboto', 'sans-serif'],
+            raleway: ['Raleway', 'sans-serif'],
+          },
      
     },
   },
