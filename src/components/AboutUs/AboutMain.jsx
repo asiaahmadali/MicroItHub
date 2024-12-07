@@ -27,7 +27,7 @@ function AboutMain() {
           <div className="absolute w-[150px] h-[150px] md:w-[200px] md:h-[200px]  bottom-4 right-[10px] bg-white text-white rounded-full flex items-center justify-center">
               <div className='bg-blue-500 rounded-full w-[80%] h-[80%] flex flex-col items-center justify-center'>
                   <p className='md:text-6xl text-3xl font-bold'>{count}</p>
-                  <p className='md:text-[18px] text-[14px] font-semibold'>Years Experience</p>
+                  <p className='md:text-[18px] text-[14px] font-semibold'>Year Experience</p>
             </div>
           </div>
         </div>
