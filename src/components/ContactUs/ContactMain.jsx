@@ -11,7 +11,7 @@ function ContactMain()
       <FaMapMarkerAlt className="text-white text-4xl" />
     </div>
     <div>
-      <h1 className="md:text-2xl text-xl font-bold mb-[10px]">Our Office Address</h1>
+      <h1 className="md:text-2xl text-xl font-bold mb-[10px]">Ours Office Address</h1>
       <p className="md:text-[19px] text-[16px] text-gray-500">
         57D Commercial, Nawab Town, Raiwind Road, Lahore, Pakistan
       </p>
