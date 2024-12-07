@@ -3,11 +3,11 @@ import { FaArrowRight } from 'react-icons/fa';
 
 function ContactForm() {
   return (
-    <form className="max-w-4xl p-6 pl-0 text-[17px]">
+    <form className="max-w-4xl w-full p-6 pl-0 text-[17px]">
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-6 mb-6 ">
         {/* Name Field */}
-        <div className="relative flex items-center bg-white p-3 rounded-md border border-transparent focus-within:border-blue-500">
+        <div className="relative flex  items-center bg-white p-2 md:p-3 rounded-md border border-transparent focus-within:border-blue-500">
           <input
             type="text"
             placeholder="Your Name"
@@ -17,7 +17,7 @@ function ContactForm() {
         </div>
 
         {/* Email Field */}
-        <div className="relative flex items-center bg-white p-3 rounded-md border border-transparent focus-within:border-blue-500">
+        <div className="relative flex items-center bg-white p-2 md:p-3 rounded-md border border-transparent focus-within:border-blue-500">
           <input
             type="email"
             placeholder="Your Email"
@@ -30,7 +30,7 @@ function ContactForm() {
       {/*  Subject and Phone Number */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {/* Subject Dropdown */}
-        <div className="relative flex items-center bg-white p-3 rounded-md border border-transparent focus-within:border-blue-500">
+        <div className="relative flex items-center bg-white p-2 md:p-3 rounded-md border border-transparent focus-within:border-blue-500">
            <select  name="subject" className="w-full pr-10 pl-3 py-2 focus:outline-none appearance-none text-gray-400">
     
                <option value="" disabled selected className="text-gray-100 font-bold">Select Subject</option>
@@ -43,7 +43,7 @@ function ContactForm() {
 
 
         {/* Phone Number */}
-        <div className="relative flex items-center bg-white p-3 rounded-md border border-transparent focus-within:border-blue-500">
+        <div className="relative flex  items-center bg-white p-2 md:p-3 rounded-md border border-transparent focus-within:border-blue-500">
           <input
             type="text"
             placeholder="Your Phone Number"
@@ -54,7 +54,7 @@ function ContactForm() {
       </div>
 
       {/*Message */}
-      <div className="mb-6 relative border rounded-md focus-within:border-blue-500">
+      <div className="mb-6 relative  rounded-md focus-within:border-blue-500">
   <textarea
     placeholder="Your Message"
     rows="7"

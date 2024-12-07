@@ -11,16 +11,21 @@ function NavBar() {
 
   return (
     <>
-      <nav className="flex h-[100px] items-center justify-around w-full top-0 left-0 p-5 bg-gradient-to-r from-white via-blue-400 to-blue-950 shadow-lg">
-        <img className="h-[70px] w-[150px]" src="./images/MicroLogo.png" alt="logo" />
+      <nav className="flex h-[120px] w-full top-0 left-0 bg-blue-950 shadow-lg">
+        <div className='bg-white flex items-center justify-center p-[60px] ' style={{ backgroundImage: "url('/images/logo-bg.svg')" }}>
+             <img className="h-[70px] w-[200px]" src="./images/MicroLogo.png" alt="logo" />
+        </div>
+        
 
         {/* Mobile Hamburger Icon */}
+
+      <div className='flex items-center justify-center w-full'>
         <div className="md:hidden flex items-center" onClick={toggleMenu}>
           <FaBars className="text-white text-2xl" />
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8">
+        <ul className="hidden md:flex space-x-8 items-center justify-center">
           <Link to="/" className="cursor-pointer text-white hover:text-gray-300">HOME</Link>
 
           {/* Services Dropdown */}
@@ -45,6 +50,8 @@ function NavBar() {
           <Link to="/aboutUs" className="text-white hover:text-gray-300 cursor-pointer">ABOUT US</Link>
           <Link to="/contactUs" className="text-white hover:text-gray-300 cursor-pointer">CONTACT US</Link>
         </ul>
+
+        </div>
       </nav>
 
       {/* Mobile Sidebar Menu */}
