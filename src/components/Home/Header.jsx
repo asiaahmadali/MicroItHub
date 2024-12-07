@@ -4,7 +4,7 @@ function Header() {
     return (
       <>
         <div style={{ backgroundImage: "url('/images/hero_bg_2.jpg')"}} className="flex  bg-cover bg-no-repeat bg-center flex-row md:flex-col justify-between mb-[20px] md:mb-[50px] h-auto bg-gradient-to-r from-blue-950 via-blue-900 to-black text-white pt-[50px] md:pt-[100px]">
-          {/* Text Content Section is */}
+          {/* Text Content Section*/}
           <div className='flex'>
           <div className="flex flex-col justify-center items-start w-full md:w-3/4 px-10 space-y-6 z-10 pb-[20px] md:pb-[100px]">
             <p className="md:text-xl text-[18px] tracking-wide text-purple-400">WE DREAM | WE DESIGN | WE DEVELOP | WE DELIVER</p>
