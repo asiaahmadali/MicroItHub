@@ -12,7 +12,11 @@ function WebDevIntro()
 
               {/* intro text */}
               <div className="md:w-1/2 w-full flex flex-col gap-[30px]">
-                    <p className="text-blue-500 font-semibold text-[18px]"> WEB DEVELOPMENT</p>
+                     <div className='flex gap-[10px]'>
+                        <img src="images/title-icon.svg" alt="" />
+                         <p className="text-blue-500 font-semibold text-[18px]"> WEB DEVELOPMENT</p>
+                     </div>
+                  
                     <h1 className="md:text-4xl text-blue-950 text-2xl leading-[35px] md:leading-[50px] font-bold">Trust MicroITHub for Innovative, Reliable, and Results-Driven  <span className="text-blue-600 ">Web Solutions</span> </h1>
                     <p className="text-gray-500 text-[16px] leading-[30px] md:text-[18px] ">At MicroITHub, we specialize in creating high-quality, custom web solutions tailored to meet the unique needs of every business. With six years of experience in web and mobile app development, we combine technical expertise with a deep understanding of industry trends to deliver engaging, reliable,
                          and scalable websites that help our clients achieve their goals.</p>
