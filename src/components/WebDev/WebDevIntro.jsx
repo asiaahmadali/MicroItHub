@@ -4,7 +4,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 function WebDevIntro()
 {
     return <>
-      <div className="flex md:flex-row flex-col p-[20px] md:p-[50px] items-center gap-[50px]">
+      <div className="flex md:flex-row flex-col p-[20px] md:p-[50px] items-center justify-center gap-[50px]">
               {/* img div */}
               <div className="md:w-1/2 w-full">
                     <img className="rounded-[30px]" src="images/web-dev.jpg" alt="" />
@@ -22,7 +22,7 @@ function WebDevIntro()
                          and scalable websites that help our clients achieve their goals.</p>
 
                          {/* services rows div */}
-                         <div className='flex flex-col gap-[20px]'>
+                         <div className='flex flex-col gap-[20px] bg-no-repeat bg-cover bg-center'  style={{ backgroundImage: "url('/images/web-intro-bg.png')" }}>
                             {/* service 1 */}
                                <div className='flex gap-[10px] items-center'>
                                    <div className='bg-blue-500 rounded-md p-[4px] flex items-center justify-center text-white'>
