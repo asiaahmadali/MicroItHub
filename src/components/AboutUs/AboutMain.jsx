@@ -20,7 +20,7 @@ function AboutMain() {
     <>
       <div className="flex flex-col md:flex-row p-[25px] md:p-[100px] gap-[50px]">
         {/* about img */}
-        <div className=" w-full md:w-1/2 relative">
+        <div className=" w-full md:w-1/2 relative"  data-aos="fade-right">
           <img src="images/about-img.png" alt="" className="w-full" />
 
           {/* Circular Experience Badge */}
@@ -40,7 +40,7 @@ function AboutMain() {
             <p className="text-blue-500 text-[16px] md:text-xl font-semibold">ABOUT US</p>
           </div>
 
-          <p className="md:text-4xl text-2xl font-bold leading-[30px] md:leading-[45px] mt-4 mb-4 text-gray-900">
+          <p  data-aos="fade-right" className="md:text-4xl text-2xl font-bold leading-[30px] md:leading-[45px] mt-4 mb-4 text-gray-900">
             Unlocking New Business Opportunities With <span className="text-blue-500">Smart IT Solutions</span>
           </p>
           <p className="md:text-[18px] text-[15px] mt-[30px] text-gray-600 leading-[30px] mb-[30px]">
@@ -48,7 +48,7 @@ function AboutMain() {
           </p>
 
           {/* company certificate and team */}
-          <div className="mt-[20px] flex flex-row gap-[20px] justify-between pb-[30px] border-b-[2px]">
+          <div  data-aos="fade-down"className="mt-[20px] flex flex-row gap-[20px] justify-between pb-[30px] border-b-[2px]">
             {/* div1 */}
             <div className="flex gap-[10px]">
               <img src="images/banner-icon-4.svg" alt="" className=" w-[40px] md:w-[50px]" />
@@ -68,7 +68,7 @@ function AboutMain() {
           </div>
 
           {/* contact no */}
-          <div className="mt-[30px] flex gap-[10px] md:gap-[20px] justify-between">
+          <div  data-aos="fade-up" className="mt-[30px] flex gap-[10px] md:gap-[20px] justify-between">
             {/* div1 */}
             <div className="flex gap-[10px]">
               <div className="bg-blue-600 rounded-full flex items-center justify-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] p-[17px] md:p-[15px]">
