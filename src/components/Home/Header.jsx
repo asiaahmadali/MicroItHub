@@ -3,9 +3,10 @@ import { FaStar } from 'react-icons/fa';
 function Header() {
     return (
       <>
-        <div style={{ backgroundImage: "url('/images/hero_bg_2.jpg')"}} className="flex  bg-cover bg-no-repeat bg-center flex-row md:flex-col justify-between mb-[20px] md:mb-[50px] h-auto bg-gradient-to-r from-blue-950 via-blue-900 to-black text-white pt-[50px] md:pt-[100px]">
-          {/* Text Content Section*/}
-          <div className='flex'>
+        <div style={{ backgroundImage: "url('/images/hero_bg_2.jpg')"}} className="flex w-full bg-cover bg-no-repeat bg-center flex-col md:flex-row justify-between mb-[20px] md:mb-[50px] h-auto bg-gradient-to-r from-blue-950 via-blue-900 to-black text-white pt-[50px] md:pt-[100px]">
+         
+         
+             {/* Text Content Section*/}
           <div className="flex flex-col justify-center items-start w-full md:w-3/4 px-10 space-y-6 z-10 pb-[20px] md:pb-[100px]">
             <p className="md:text-xl text-[18px] tracking-wide text-purple-400">WE DREAM | WE DESIGN | WE DEVELOP | WE DELIVER</p>
             <p className="md:text-8xl text-xl font-semibold text-shadow-md leading-[50px] md:leading-[110px]">
@@ -48,20 +49,20 @@ function Header() {
           {/* Image Section */}
           <div className="">
             <img
-              className="md:h-[700px] h-[400px] w-auto md:w-[800px] object-cover p-[10px] rounded-[20px] "
+              className="md:h-[700px] h-[400px] w-full md:w-[800px] object-cover p-[10px] rounded-[20px] "
               src="./images/intro.jpg"
               alt="Header Image"
             />
           </div>
-          </div>
+         
 
-           <div>
+           {/* <div>
                <p>product 1</p>
                <p>product 2</p>
                <p>product 3</p>
                <p>product 4</p>
 
-           </div>
+           </div> */}
         </div>
       </>
     );

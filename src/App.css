@@ -38,6 +38,10 @@
 .animate-downup {
     animation: downup 2s ease-in-out infinite;
 }
+.clip-path-separation {
+  clip-path: polygon(100% 100%, 100% 80%, 100% 100%, 0% 100%);
+  background-color: #1D4ED8; /* blue-600 color */
+}
 
 
 @keyframes rotate {

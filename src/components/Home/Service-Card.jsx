@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 function Servicecard(Props) {
   return (
     <>
-      <div className="w-[300px] flex flex-col gap-[20px] p-[15px] md:p-[25px] shadow-lg bg-white rounded-tl-lg rounded-br-[50px] rounded-bl-lg border-t-4 border-blue-400 relative group overflow-hidden">
+      <div className="md:w-[300px] md:m-[2px] m-[20px] w-auto flex flex-col gap-[20px] p-[15px] md:p-[25px] shadow-lg bg-white rounded-tl-lg rounded-br-[50px] rounded-bl-lg border-t-4 border-blue-400 relative group overflow-hidden">
         
         {/* Top blue line */}
         <h1 className="text-blue-950 text-xl md:text-2xl font-semibold group-hover:text-white transition-colors duration-300 z-10">{Props.head}</h1>

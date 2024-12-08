@@ -22,7 +22,7 @@ function NavBar() {
         </div>
 
         {/* Mobile Hamburger Icon */}
-        <div className="flex items-center justify-center w-full">
+        <div className="flex items-center md:justify-center justify-end pr-[20px] w-full">
           <div className="md:hidden flex items-center bg-blue-600 p-4 rounded-md hover:cursor-pointer hover:bg-blue-900" onClick={toggleMenu}>
             <FaBars className="text-white text-2xl" />
           </div>
@@ -64,7 +64,7 @@ function NavBar() {
         {/* Close icon */}
         <div className='bg-blue-100'>
         <div className="flex justify-end p-2">
-          <FaTimes className="text-blue-950 text-2xl cursor-pointer" onClick={() => setIsMenuOpen(false)} />
+          <FaTimes className="text-blue-950 text-2xl p-[4px] bg-blue-300 rounded-full cursor-pointer" onClick={() => setIsMenuOpen(false)} />
         </div>
 
         {/* Logo in the sidebar */}
@@ -87,7 +87,7 @@ function NavBar() {
               <span className="flex items-center">
                 <span className="mr-2 text-xl">{">"}</span> SERVICES
               </span>
-              <i className={`ml-2 ${isServicesOpen ? 'fas fa-minus' : 'fas fa-plus'} text-blue-950`} />
+              <i className={`ml-2 ${isServicesOpen ? 'fas fa-minus' : 'fas fa-plus'} text-blue-950 p-[10px] bg-gray-300 rounded-full`} />
             </div>
             {isServicesOpen && (
               <ul className="space-y-4">
