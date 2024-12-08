@@ -5,7 +5,7 @@ function Banner() {
 
                 {/* First div */}
                 <div className="flex md:flex-row flex-col gap-[15px]">
-                    <div className="bg-white flex items-center justify-center p-[10px]">
+                    <div className="bg-white flex items-center  rounded-full justify-center border-[10px] border-gray-200 p-[20px]">
                         <img src="images/banner-icon-1.svg" alt="" />
                     </div>
                     <div className="flex flex-col gap-[10px]">
@@ -16,7 +16,7 @@ function Banner() {
 
                 {/* Second div */}
                 <div className="flex gap-[15px] md:flex-row flex-col">
-                    <div className="bg-white flex items-center justify-center p-[10px]">
+                    <div className="bg-white flex items-center rounded-full justify-center border-[10px] border-gray-200 p-[20px]">
                         <img src="images/banner-icon-2.svg" alt="" />
                     </div>
                     <div className="flex flex-col gap-[10px]">
@@ -27,7 +27,7 @@ function Banner() {
 
                 {/* Third div */}
                 <div className="flex gap-[15px] md:flex-row flex-col">
-                    <div className="bg-white flex items-center justify-center p-[10px]">
+                    <div className="bg-white flex items-center rounded-full justify-center border-[10px] border-gray-200 p-[20px]">
                         <img src="images/banner-icon-3.svg" alt="" />
                     </div>
                     <div className="flex flex-col gap-[10px]">
@@ -38,8 +38,8 @@ function Banner() {
 
                 {/* Fourth div */}
                 <div className="flex gap-[15px] md:flex-row flex-col">
-                    <div className="bg-white flex items-center justify-center p-[10px]">
-                        <img src="images/banner-icon-4.svg" alt="" />
+                    <div className="bg-white flex items-center rounded-full justify-center border-[10px] border-gray-200 p-[25px] md:p-[20px]">
+                        <img src="images/banner-icon-4.svg" className="w-auto h-auto" alt="" />
                     </div>
                     <div className="flex flex-col gap-[10px]">
                         <p className="md:text-5xl text-3xl  text-white font-bold">496+</p>

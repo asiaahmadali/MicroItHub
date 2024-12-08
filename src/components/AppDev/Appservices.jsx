@@ -1,6 +1,6 @@
 import AppLeft from "./AppLeft" ;
 import AppRight from "./AppRight" ;
-import Footer from "../AboutUs/footer";
+
 
 function AppServices()
 {
@@ -9,7 +9,7 @@ function AppServices()
                  <AppLeft></AppLeft>  
                  <AppRight></AppRight> 
           </div>
-          <Footer></Footer>
+          
     </>
 }
 

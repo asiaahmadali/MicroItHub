@@ -6,9 +6,13 @@ function WebDevIntro()
     return <>
       <div className="flex md:flex-row flex-col p-[20px] md:p-[50px] items-center justify-center gap-[50px]">
               {/* img div */}
-              <div className="md:w-1/2 w-full">
-                    <img className="rounded-[30px]" src="images/web-dev.jpg" alt="" />
-              </div>
+              <div className="md:w-1/2 w-full relative" >
+                   
+                   <img src="/images/web-small-img.jpg" alt="" className='md:w-[200px] h-[150px] w-[150px]  absolute top-[150px] left-[-20px] md:h-[200px] rounded-[10px] animate-downup'/>
+
+                   <img className="rounded-[30px]" src="images/web-dev.jpg" alt="" />
+                   <img src="/images/web-small-img2.jpg" alt="" className='md:w-[250px] w-[200px] absolute right-[20px] md:right-[60px] bottom-[-20px] h-[170px] md:h-[200px] border-8 border-white rounded-[10px] animate-updown'/>
+             </div>
 
               {/* intro text */}
               <div className="md:w-1/2 w-full flex flex-col gap-[30px]">

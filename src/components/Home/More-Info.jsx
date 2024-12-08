@@ -4,7 +4,7 @@ function MoreInfo()
 {
     return <>
       <div className="bg-blue-600 text-white m-[20px] rounded-[30px] flex md:flex-row flex-col gap-[20px] justify-between md:justify-evenly p-[40px] items-center">
-             <div className='p-[20px] text-xl rounded-full bg-blue-400 hover:bg-black'>
+             <div className='p-[20px] text-xl rounded-full border-[8px] border-blue-300 bg-blue-400 hover:bg-black'>
                   <FaPhoneAlt></FaPhoneAlt>
               </div> 
 

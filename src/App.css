@@ -7,4 +7,48 @@
     }
   }
 
+  @keyframes updown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Moves up by 10px */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-updown {
+    animation: updown 2s ease-in-out infinite;
+  }
  
+  @keyframes downup {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px); /* Moves down by 10px */
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+.animate-downup {
+    animation: downup 2s ease-in-out infinite;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-animation {
+  animation: rotate 5s linear infinite;
+}

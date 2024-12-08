@@ -1,11 +1,18 @@
 function CompanyIntro()
 {
     return <>
-      <div className="flex md:flex-row flex-col p-[20px] md:p-[50px] items-center gap-[50px]">
+      <div className="flex md:flex-row flex-col p-[20px] md:p-[50px] items-center gap-[50px] md:gap-[100px]">
               {/* img div */}
-              <div className="md:w-1/2 w-full">
+              <div className="md:w-1/2 w-full relative">
+                   
+                    <img src="/images/graph1.jpg" alt="" className='md:w-[200px] h-[150px] w-[200px]  absolute top-[90px] md:top-[150px] left-[-20px] md:h-[200px] rounded-[10px] animate-downup'/>
+                    <img src="/images/star.png" alt="" className="absolute right-[80px] top-[-20px] rotate-animation"/>
+                    <img src="images/arrow-2.png" alt="" className="absolute right-[-170px] hidden md:block z-[-1]"/>
                     <img className="rounded-[30px]" src="images/microithub.png" alt="" />
+                    <img src="/images/graph-2.jpg" alt="" className='md:w-[250px] w-[200px] absolute right-[50px] bottom-[-20px] h-[150px] md:h-[200px] border-8 border-white rounded-[10px] animate-updown'/>
               </div>
+
+              
 
               {/* intro text */}
               <div className="md:w-1/2 w-full flex flex-col gap-[20px]">
