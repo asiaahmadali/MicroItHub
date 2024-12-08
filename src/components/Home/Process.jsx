@@ -19,22 +19,22 @@ import { FaCheck } from 'react-icons/fa';
                <div className="flex md:flex-row flex-col items-center md:items-start rounded-[30px] gap-[30px] bg-white m-[10px] p-[20px] md:p-[50px] ">
                 {/* 1st div */}
                <div className="flex flex-col items-center gap-[20px]">
-                     <div className="flex gap-[20px]">
+                     <div className="flex gap-[20px]" data-aos="fade-right">
                          <button className="text-white w-auto text-[18px] bg-blue-500 rounded-[50px] md:py-[10px] font-semibold p-[10px] md:px-[20px]">Step-01</button>
                          <button className="text-white w-[200px] md:w-[300px] text-xl bg-blue-500 rounded-[50px] md:py-[20px] font-semibold p-[10px] md:px-[120px]">Discovery</button>
                      </div>
 
-                     <div className="flex gap-[20px]">
+                     <div className="flex gap-[20px]"  data-aos="fade-right">
                          <button className="text-blue-950 w-auto border text-[18px] bg-white rounded-[50px] md:py-[10px] font-semibold p-[10px] md:px-[20px]">Step-02</button>
                          <button className="text-blue-950 border w-[200px] md:w-[300px] text-xl bg-white rounded-[50px] md:py-[20px] font-semibold p-[10px] md:px-[120px]">Planning</button>
                      </div>
 
-                     <div className="flex gap-[20px]">
+                     <div className="flex gap-[20px]"  data-aos="fade-right">
                          <button className="text-blue-950 w-auto border text-[18px] bg-white rounded-[50px] md:py-[10px] p-[10px] font-semibold md:px-[20px]">Step-03</button>
                          <button className="text-blue-950 border w-[200px] md:w-[300px] text-xl bg-white rounded-[50px] md:py-[20px] font-semibold p-[10px] md:px-[120px]">Execute</button>
                      </div>
 
-                     <div className="flex gap-[20px]">
+                     <div className="flex gap-[20px]"  data-aos="fade-right">
                          <button className=" text-blue-950 border w-auto text-[18px] bg-white rounded-[50px] md:py-[10px] p-[10px] font-semibold md:px-[20px]">Step-04</button>
                          <button className="text-blue-950 border  w-[200px] md:w-[300px] text-xl bg-white rounded-[50px] md:py-[20px] p-[10px] font-semibold md:px-[80px]">Finished Work</button>
                      </div>
@@ -53,35 +53,35 @@ import { FaCheck } from 'react-icons/fa';
                         </p>
 
                         <div className='flex flex-col gap-[10px]'>
-                               <div className='flex items-center gap-[10px]'>
+                               <div className='flex items-center gap-[10px]'  data-aos="fade-right">
                                     <div className='border rounded-full p-[5px] w-[30px] h-[30px] flex items-center justify-center'>
                                        <FaCheck className='text-gray-300 text-[18px]'></FaCheck>
                                     </div>
                                     <p className='text-blue-950 text-[16px] font-semibold'>Understanding Your Vision</p>        
                                </div>
 
-                               <div className='flex items-center gap-[10px]'>
+                               <div className='flex items-center gap-[10px]'  data-aos="fade-right">
                                     <div className='border rounded-full p-[5px] w-[30px] h-[30px] flex items-center justify-center'>
                                        <FaCheck className='text-gray-300 text-2xl'></FaCheck>
                                     </div>
                                     <p className='text-blue-950 text-[16px] font-semibold'>User and Market Research</p>        
                                </div>
 
-                               <div className='flex items-center gap-[10px]'>
+                               <div className='flex items-center gap-[10px]'  data-aos="fade-right">
                                     <div className='border rounded-full p-[5px] w-[30px] h-[30px] flex items-center justify-center'>
                                        <FaCheck className='text-gray-300 text-2xl'></FaCheck>
                                     </div>
                                     <p className='text-blue-950 text-[16px] font-semibold'>Requirements Gathering</p>        
                                </div>
 
-                               <div className='flex items-center gap-[10px]'>
+                               <div className='flex items-center gap-[10px]'  data-aos="fade-right">
                                     <div className='border rounded-full p-[5px] w-[30px] h-[30px] flex items-center justify-center'>
                                        <FaCheck className='text-gray-300 text-2xl'></FaCheck>
                                     </div>
                                     <p className='text-blue-950 text-[16px] font-semibold'>Feasibility Assessment</p>        
                                </div>
 
-                               <div className='flex items-center gap-[10px]'>
+                               <div className='flex items-center gap-[10px]'  data-aos="fade-right">
                                     <div className='border rounded-full p-[5px] w-[30px] h-[30px] flex items-center justify-center'>
                                        <FaCheck className='text-gray-300 text-2xl'></FaCheck>
                                     </div>
@@ -92,7 +92,7 @@ import { FaCheck } from 'react-icons/fa';
                    </div>
 
                    {/* 3rd div */}
-                   <div>
+                   <div data-aos="fade-right">
                        <img src="images/process-img.jpg" alt="" className='md:w-[350px] w-full rounded-[30px]' />
                    </div>
                </div>

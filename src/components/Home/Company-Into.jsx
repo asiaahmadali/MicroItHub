@@ -3,7 +3,7 @@ function CompanyIntro()
     return <>
       <div className="flex md:flex-row flex-col p-[20px] md:p-[50px] items-center gap-[50px] md:gap-[100px]">
               {/* img div */}
-              <div className="md:w-1/2 w-full relative">
+              <div className="md:w-1/2 w-full relative" data-aos="zoom-in" >
                    
                     <img src="/images/graph1.jpg" alt="" className='md:w-[200px] h-[150px] w-[200px]  absolute top-[50px] md:top-[150px] left-[-20px] md:h-[200px] rounded-[10px] animate-downup'/>
                     <img src="/images/star.png" alt="" className="absolute right-[80px] top-[-20px] rotate-animation"/>

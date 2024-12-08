@@ -2,7 +2,7 @@ import { FaPlay } from 'react-icons/fa';
 function VideoSection()
 {
     return <>
-          <div className="relative flex items-center justify-center p-[20px]">
+          <div className="relative flex items-center justify-center p-[20px]"  data-aos="zoom-in">
       
           <img className="rounded-[30px] h-auto md:h-screen m-[10px] w-full" src="images/video-section-img.jpg" alt="Video Thumbnail" />
 
