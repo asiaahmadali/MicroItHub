@@ -39,7 +39,7 @@ function NavBar() {
                 <i className="fas fa-caret-down ml-2" />
               </div>
               {/* Dropdown Menu */}
-              <ul className="absolute left-0 mt-2 w-80 p-[10px] bg-white text-[16px] font-semibold text-blue-950 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out transform group-hover:translate-y-0 translate-y-2">
+              <ul className="absolute z-10 left-0 mt-2 w-80 p-[10px] bg-white text-[16px] font-semibold text-blue-950 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out transform group-hover:translate-y-0 translate-y-2">
                 <Link to="/software-development" className="flex items-center px-4 py-2 hover:text-blue-500 cursor-pointer transition-colors duration-200">
                   <i className="fas fa-cogs mr-2 text-[18px] md:text-xl text-blue-500"></i> Software Development
                 </Link>

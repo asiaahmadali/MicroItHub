@@ -8,9 +8,9 @@ function Header() {
          
              {/* Text Content Section*/}
           <div className="flex flex-col justify-center items-start w-full md:w-3/4 px-10 space-y-6 z-10 pb-[20px] md:pb-[100px]">
-            <p className="md:text-xl text-[18px] tracking-wide text-purple-400">WE DREAM | WE DESIGN | WE DEVELOP | WE DELIVER</p>
+            <p data-aos="fade-right" className="md:text-xl text-[18px] tracking-wide text-purple-400">WE DREAM | WE DESIGN | WE DEVELOP | WE DELIVER</p>
             <p className="md:text-8xl text-xl font-semibold text-shadow-md leading-[50px] md:leading-[110px]">
-              Transforming <span className="text-green-600 border-green-400 border-[2px]">IDEAS</span> into Software, Web, and Apps
+              Transforming <span className="text-green-600 border-green-400 border-[2px]" data-aos="fade-right">IDEAS</span> into Software, Web, and Apps
             </p>
 
             <div className="flex md:flex-row flex-col justify-between gap-[10px] md:gap-[100px]">
@@ -22,12 +22,12 @@ function Header() {
             {/* rating */}
             
               <div className="relative text-[18px] flex items-center justify-center gap-[10px] top-[10px] md:top-[60px] ">
-                <div className='relative bottom-[50px]'>
+                <div data-aos="fade-right" className='relative bottom-[50px]'>
                      <img src="images/arrow.png" alt="" />
                 </div>
 
                 <div>
-                <p className="text-[15px] md:text-[18px]">(4,5/5 rating by clients)</p>
+                <p  className="text-[15px] md:text-[18px]">(4,5/5 rating by clients)</p>
                     <div className='flex items-center mt-1 text-[15px] md:text-[18px] gap-1 text-yellow-400'>
                         <FaStar className='text-[10px] md:text-[18px]'></FaStar>
                         <FaStar className='text-[10px] md:text-[18px]'></FaStar>
@@ -47,7 +47,7 @@ function Header() {
           </div>
   
           {/* Image Section */}
-          <div className="">
+          <div className=""data-aos="zoom-in">
             <img
               className="md:h-[700px] h-[400px] w-full md:w-[800px] object-cover p-[10px] rounded-[20px] "
               src="./images/intro.jpg"
