@@ -70,16 +70,16 @@ function Header() {
                 </div>
 
                 {/* Slider Div with Swiper */}
-                <div className="mt-[50px] w-[70%] flex items-center justify-center">
+                <div className="mt-[50px] w-[80%]  flex items-center justify-center">
     <Swiper
         ref={swiperRef} // Attach swiper instance to the ref
         spaceBetween={30} // Space between slides
         slidesPerView={1} // Only 1 slide per view
         loop={true} // Enable looping of slides
         speed={1500} // Speed of transition (1.5 seconds)
-        className="bg-gray-200 p-[30px] sharp-top-right"
+        className="bg-gray-200 p-[30px] sharp-top-right rounded-tr-[90px] md:rounded-tr-[150px]"
         breakpoints={{
-          640: { slidesPerView: 1 },
+          640: { slidesPerView: 2},
           768: { slidesPerView: 2 },
           900: { slidesPerView: 2 },
           1100: { slidesPerView: 3 },

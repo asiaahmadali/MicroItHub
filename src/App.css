@@ -55,19 +55,5 @@
   animation: rotate 5s linear infinite;
 }
 
-.sharp-cut-corner {
-  position: relative; /* So the ::after pseudo-element can position relative to this div */
-  overflow: hidden; /* To hide any part of the triangle that goes outside the div */
-}
 
-.sharp-cut-corner::after {
-  content: ""; /* Creates the pseudo-element */
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px; /* Controls the size of the cut */
-  height: 40px; /* Controls the size of the cut */
-  background-color: #fff; /* Color of the background (use your div's background color) */
-  clip-path: polygon(100% 0, 100% 100%, 0 100%); /* Creates the triangular cut */
-}
 
