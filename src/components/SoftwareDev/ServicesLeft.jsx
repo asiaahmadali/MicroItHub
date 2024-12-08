@@ -6,11 +6,11 @@ function ServicesLeft()
     return <>
          <div className="flex flex-col gap-[30px]">
             {/* 1st box */}
-                <div>
+                <div  data-aos="zoom-in">
                     <img src="images/services-left.jpg" alt="" className="md:w-[90%] w-full h-[320px] md:h-[500px] rounded-[10px]" />
                 </div>
             {/* 2nd box */}
-            <div className="flex flex-col gap-[30px]">
+            <div  data-aos="fade-left" className="flex flex-col gap-[30px]">
                   <h1 className="text-blue-950 font-bold text-2xl md:text-4xl ">Software Development</h1>
                   <p className="text-gray-500 leading-[25px] md:leading-[30px] text-[14px] md:text-[18px] ">At MicroITHub, our software development services focus on creating custom, high-quality solutions that align with your business goals and drive operational efficiency. We bring together a talented team of developers, designers, and strategists to ensure each project meets our clients unique requirements.<br></br>
                   Heres how we approach software development:</p>
@@ -23,7 +23,7 @@ function ServicesLeft()
                     <h1 className='text-2xl text-blue-950 font-bold'>We Serve The Best Work</h1>
                     <div className='flex flex-col gap-[25px]'>
                         {/* row1 */}
-                      <div className="flex gap-[10px] items-center">
+                      <div  data-aos="fade-right" className="flex gap-[10px] items-center">
                               <div className="w-5 h-5 bg-blue-600 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
                               </div>
@@ -31,7 +31,7 @@ function ServicesLeft()
                              <p className="text-blue-950 text-[13px] md:text-[16px]">Tailored software to meet unique needs.</p>
                       </div>
                         {/* row2 */}
-                        <div className="flex gap-[10px] items-center">
+                        <div  data-aos="fade-right" className="flex gap-[10px] items-center">
                               <div className="w-5 h-5 bg-blue-600 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
                               </div>
@@ -39,7 +39,7 @@ function ServicesLeft()
                              <p className="text-blue-950 text-[13px] md:text-[16px]">Flexible, iterative project phases.</p>
                         </div>
                         {/* row3 */}
-                        <div className="flex gap-[10px] items-center">
+                        <div  data-aos="fade-right" className="flex gap-[10px] items-center">
                               <div className="w-5 h-5 bg-blue-600 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
                               </div>
@@ -47,7 +47,7 @@ function ServicesLeft()
                              <p className="text-blue-950 text-[13px] md:text-[16px]">Latest tech for reliable performance.</p>
                         </div>
                         {/* row4 */}
-                        <div className="flex gap-[10px] items-center">
+                        <div  data-aos="fade-right" className="flex gap-[10px] items-center">
                               <div className="w-5 h-5 bg-blue-600 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
                               </div>
@@ -55,7 +55,7 @@ function ServicesLeft()
                              <p className="text-blue-950 text-[13px] md:text-[16px]">Intuitive and user-centered design.</p>
                         </div>
                         {/* row5 */}
-                        <div className="flex gap-[10px] items-center">
+                        <div  data-aos="fade-right" className="flex gap-[10px] items-center">
                               <div className="w-5 h-5 bg-blue-600 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
                               </div>
@@ -63,7 +63,7 @@ function ServicesLeft()
                              <p className="text-blue-950 text-[13px] md:text-[16px]">Comprehensive testing for reliability.</p>
                         </div>
                         {/* row6 */}
-                        <div className="flex gap-[10px] items-center">
+                        <div  data-aos="fade-right" className="flex gap-[10px] items-center">
                               <div className="w-5 h-5 bg-blue-600 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
                               </div>
@@ -71,7 +71,7 @@ function ServicesLeft()
                              <p className="text-blue-950 text-[13px] md:text-[16px]">Smoothly integrates with existing systems.</p>
                         </div>
                         {/* row6 */}
-                        <div className="flex gap-[10px] items-center">
+                        <div  data-aos="fade-right" className="flex gap-[10px] items-center">
                               <div className="w-5 h-5 bg-blue-600 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
                               </div>
@@ -82,7 +82,7 @@ function ServicesLeft()
                     </div>
                 </div>
                 {/* img div */}
-                <div>
+                <div  data-aos="zoom-in">
                       <img src="images/services-inner.jpg" alt="" className='md:w-[250px] w-full rounded-[10px]' />
                 </div>
                
@@ -97,7 +97,7 @@ function ServicesLeft()
                         <div className='mt-[30px] flex flex-col gap-[30px]'>
                              <h1 className='text-blue-950 text-2xl md:text-4xl font-bold'>Benefits With Our Service</h1>
                                <div className='flex gap-[20px] md:flex-row flex-col '>
-                                     <div className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
+                                     <div data-aos="fade-up" className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
                                             <div className='bg-blue-600 text-white shadow-lg shadow-blue-500 rounded-[10px] p-[20px] flex items-center justify-center'>
                                                 <FaLightbulb className='md:text-5xl text-2xl'></FaLightbulb>
                                             </div>
@@ -107,7 +107,7 @@ function ServicesLeft()
                                             </div>
                                      </div>
 
-                                     <div className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
+                                     <div data-aos="fade-down"  className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
                                             <div className='bg-blue-600 text-white shadow-lg shadow-blue-500 rounded-[10px] p-[20px] flex items-center justify-center'>
                                                 <FaHandsHelping className=' text-2xl md:text-5xl'></FaHandsHelping>
                                             </div>
