@@ -1,5 +1,5 @@
 import { FaStar } from 'react-icons/fa';
-
+import Swiper from 'swiper';
 function Header() {
     return (
       <>
@@ -56,13 +56,7 @@ function Header() {
           </div>
          
 
-           {/* <div>
-               <p>product 1</p>
-               <p>product 2</p>
-               <p>product 3</p>
-               <p>product 4</p>
-
-           </div> */}
+           <Swiper></Swiper>
         </div>
       </>
     );

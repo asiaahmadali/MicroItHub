@@ -1,6 +1,6 @@
 import { FaCheck} from 'react-icons/fa';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-
+import { Link } from 'react-router-dom';
 function WebDevIntro()
 {
     return <>
@@ -86,10 +86,10 @@ function WebDevIntro()
                          </div>
 
                     {/* button */}
-                  <button className='text-white w-[170px]  hover:bg-blue-950 hover:cursor-pointer rounded-[10px] text-[18px]  font-semibold p-[15px] flex gap-[5px] bg-blue-600 items-center justify-center'>
+                  <Link to="/contactUs" className='text-white w-[170px]  hover:bg-blue-950 hover:cursor-pointer rounded-[10px] text-[18px]  font-semibold p-[15px] flex gap-[5px] bg-blue-600 items-center justify-center'>
                       <p>Get a Quote</p>
                       <AiOutlineArrowRight></AiOutlineArrowRight>
-                 </button>
+                 </Link>
               </div>
       </div>
     </>

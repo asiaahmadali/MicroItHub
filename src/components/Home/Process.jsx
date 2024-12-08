@@ -41,6 +41,8 @@ import { FaCheck } from 'react-icons/fa';
 
                </div>
 
+              
+
                   {/* 2nd div */}
                    <div className='md:w-[350px] w-full flex flex-col gap-[40px] border-l-[1px] border-l-gray-200 pl-[30px]'>
                         <h1 className='text-blue-950 font-semibold text-2xl leading-[30px]'>Building the Right Solution from the Start</h1>
