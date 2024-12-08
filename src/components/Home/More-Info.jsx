@@ -21,8 +21,11 @@ function MoreInfo()
              </div>
 
              <div data-aos="fade-up">
-                 <button className="border-blue-300 hover:bg-black  border-[1px] font-semibold bg-blue-500 px-[30px] py-[10px] rounded-[30px]">CONTACT US</button>
-             </div>
+                 <button className="border-blue-300 hover:bg-black border-[1px] font-semibold bg-blue-500 px-[30px] py-[10px] rounded-[30px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg  hover:border-blue-500">
+                  CONTACT US
+                 </button>
+            </div>
+
       </div>
     </>
 }

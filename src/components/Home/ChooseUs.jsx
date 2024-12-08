@@ -15,7 +15,8 @@ function ChooseUs() {
 
           {/* circles div */}
           <div className="flex gap-[20px]">
-               <div  data-aos="fade-up" className="p-[20px] md:w-[170px] w-[100px] h-[100px] gap-[5px] md:h-[170px] flex flex-col rounded-full border border-blue-500 items-center justify-center ">
+            <div></div>
+               <div  data-aos="fade-up" className="p-[20px] md:w-[170px] w-[100px] h-[100px] gap-[5px] md:h-[170px] flex flex-col rounded-full border border-blue-500 items-center justify-center ">  
                      <h1 className="md:text-5xl text-3xl  text-blue-950 font-bold">96%</h1>
                      <p className="md:text-[16px] text-[14px] text-blue-950">Team Members</p>
                </div>
