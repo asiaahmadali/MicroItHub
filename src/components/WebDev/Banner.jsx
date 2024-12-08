@@ -4,7 +4,7 @@ function Banner() {
             <div className="bg-blue-600 grid grid-cols-2 place-items-center md:grid-cols-4 gap-[20px] overflow-hidden md:gap-[50px] h-auto md:h-[300px] p-[10px] md:p-[50px] items-center justify-between bg-no-repeat bg-center bg-cover" style={{ backgroundImage: "url('/images/banner-bg.png')" }}>
 
                 {/* First div */}
-                <div className="flex md:flex-row flex-col gap-[15px]">
+                <div  data-aos="fade-right" className="flex md:flex-row flex-col gap-[15px]">
                     <div className="bg-white flex items-center  rounded-full justify-center border-[10px] border-gray-200 p-[20px]">
                         <img src="images/banner-icon-1.svg" alt="" />
                     </div>
@@ -15,7 +15,7 @@ function Banner() {
                 </div>
 
                 {/* Second div */}
-                <div className="flex gap-[15px] md:flex-row flex-col">
+                <div  data-aos="fade-left" className="flex gap-[15px] md:flex-row flex-col">
                     <div className="bg-white flex items-center rounded-full justify-center border-[10px] border-gray-200 p-[20px]">
                         <img src="images/banner-icon-2.svg" alt="" />
                     </div>
@@ -26,7 +26,7 @@ function Banner() {
                 </div>
 
                 {/* Third div */}
-                <div className="flex gap-[15px] md:flex-row flex-col">
+                <div  data-aos="fade-right" className="flex gap-[15px] md:flex-row flex-col">
                     <div className="bg-white flex items-center rounded-full justify-center border-[10px] border-gray-200 p-[20px]">
                         <img src="images/banner-icon-3.svg" alt="" />
                     </div>
@@ -37,7 +37,7 @@ function Banner() {
                 </div>
 
                 {/* Fourth div */}
-                <div className="flex gap-[15px] md:flex-row flex-col">
+                <div  data-aos="fade-left" className="flex gap-[15px] md:flex-row flex-col">
                     <div className="bg-white flex items-center rounded-full justify-center border-[10px] border-gray-200 p-[25px] md:p-[20px]">
                         <img src="images/banner-icon-4.svg" className="w-auto h-auto" alt="" />
                     </div>

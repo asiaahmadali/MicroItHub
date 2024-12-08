@@ -75,7 +75,7 @@ function ServicesDetails() {
                     <h1 className='md:text-3xl text-2xl text-white mt-[20px] md:mt-[50px] font-bold'>Our web development services details</h1>
                     <div className='flex flex-col gap-[25px]'>
                         {/* row1 */}
-                        <div className="flex flex-col gap-[10px] ">
+                        <div data-aos="zoom-in" className="flex flex-col gap-[10px] ">
                             <div className='flex gap-[10px]'>
                                 <div className="w-5 h-5 bg-white flex items-center justify-center clip-path-hexagon">
                                     <FaCheck className="text-gray-400 text-[12px]" />
@@ -89,7 +89,7 @@ function ServicesDetails() {
                         </div>
 
                         {/* row2 */}
-                        <div className="flex flex-col gap-[10px] ">
+                        <div data-aos="zoom-in" className="flex flex-col gap-[10px] ">
                             <div className='flex gap-[10px]'>
                                 <div className="w-5 h-5 bg-white flex items-center justify-center clip-path-hexagon">
                                     <FaCheck className="text-gray-400 text-[12px]" />
@@ -103,7 +103,7 @@ function ServicesDetails() {
                         </div>
 
                         {/* row3 */}
-                        <div className="flex flex-col gap-[10px] ">
+                        <div data-aos="zoom-in" className="flex flex-col gap-[10px] ">
                             <div className='flex gap-[10px]'>
                                 <div className="w-5 h-5 bg-white flex items-center justify-center clip-path-hexagon">
                                     <FaCheck className="text-gray-400 text-[12px]" />
@@ -117,7 +117,7 @@ function ServicesDetails() {
                         </div>
 
                         {/* row4 */}
-                        <div className="flex flex-col gap-[10px] ">
+                        <div data-aos="zoom-in" className="flex flex-col gap-[10px] ">
                             <div className='flex gap-[10px]'>
                                 <div className="w-5 h-5 bg-white flex items-center justify-center clip-path-hexagon">
                                     <FaCheck className="text-gray-400 text-[12px]" />
@@ -131,7 +131,7 @@ function ServicesDetails() {
                         </div>
 
                         {/* row5 */}
-                        <div className="flex flex-col gap-[10px] ">
+                        <div data-aos="zoom-in" className="flex flex-col gap-[10px] ">
                             <div className='flex gap-[10px]'>
                                 <div className="w-5 h-5 bg-white flex items-center justify-center clip-path-hexagon">
                                     <FaCheck className="text-gray-400 text-[12px]" />
@@ -145,7 +145,7 @@ function ServicesDetails() {
                         </div>
 
                         {/* row6 */}
-                        <div className="flex flex-col gap-[10px] ">
+                        <div data-aos="zoom-in" className="flex flex-col gap-[10px] ">
                             <div className='flex gap-[10px]'>
                                 <div className="w-5 h-5 bg-white flex items-center justify-center clip-path-hexagon">
                                     <FaCheck className="text-gray-400 text-[12px]" />
@@ -159,7 +159,7 @@ function ServicesDetails() {
                         </div>
 
                         {/* row7 */}
-                        <div className="flex flex-col gap-[10px] ">
+                        <div data-aos="zoom-in" className="flex flex-col gap-[10px] ">
                             <div className='flex gap-[10px]'>
                                 <div className="w-5 h-5 bg-white flex items-center justify-center clip-path-hexagon">
                                     <FaCheck className="text-gray-400 text-[12px]" />
