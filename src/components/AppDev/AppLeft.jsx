@@ -6,11 +6,11 @@ function AppLeft()
     return <>
          <div className="flex flex-col gap-[30px]">
             {/* 1st box */}
-                <div>
+                <div data-aos="zoom-in">
                     <img src="images/services-left.jpg" alt="" className="md:w-[90%] w-full h-[320px] md:h-[500px] rounded-[10px]" />
                 </div>
             {/* 2nd box */}
-            <div className="flex flex-col gap-[30px]">
+            <div className="flex flex-col gap-[30px]" data-aos="fade-right">
                   <h1 className="text-blue-950 font-bold  text-2xl md:text-4xl ">Mobile Application Development Services by MicroITHub</h1>
                   <p className="text-gray-500 leading-[25px] md:leading-[30px] text-[14px] md:text-[18px] ">At MicroITHub, we bring your app ideas to life with robust, user-friendly, and innovative mobile solutions. With six years of experience in mobile app development, we understand the unique needs of today’s mobile-first market and specialize in creating high-quality
                      applications that captivate users and drive business growth.</p>
@@ -19,10 +19,10 @@ function AppLeft()
             {/* 3rd box */}
            
                 <div className='flex flex-col gap-[30px]'> 
-                    <h1 className='text-2xl text-blue-950 font-bold'>Our mobile application development services include:</h1>
+                    <h1 data-aos="fade-right" className='text-2xl text-blue-950 font-bold'>Our mobile application development services include:</h1>
                     <div className='flex flex-col gap-[25px]'>
                         {/* row1 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -37,7 +37,7 @@ function AppLeft()
                              
                      
                         {/* row2 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -50,7 +50,7 @@ function AppLeft()
                       </div>
 
                          {/* row3 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -62,7 +62,7 @@ function AppLeft()
                              solutions that deliver native performance on all major mobile operating systems</p>                     
                       </div>
                         {/* row4 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -75,7 +75,7 @@ function AppLeft()
                             </p>                     
                       </div>
                          {/* row5 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -89,7 +89,7 @@ function AppLeft()
                             </p>                     
                       </div>
                          {/* row6 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -103,7 +103,7 @@ function AppLeft()
                             </p>                     
                       </div>
                          {/* row7 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -118,7 +118,7 @@ function AppLeft()
                       </div>
 
                       {/* row8 */}
-                      <div className="flex flex-col gap-[10px] ">
+                      <div data-aos="fade-right" className="flex flex-col gap-[10px] ">
                           <div className='flex gap-[10px]'>
                               <div className="w-5 h-5 bg-gray-500 flex items-center justify-center clip-path-hexagon">
                                   <FaCheck className="text-white text-[12px]" />
@@ -145,7 +145,7 @@ function AppLeft()
                         <div className='mt-[30px] flex flex-col gap-[30px]'>
                              <h1 className='text-blue-950 text-2xl md:text-4xl font-bold'>Benefits With Our Service</h1>
                                <div className='flex gap-[20px] md:flex-row flex-col '>
-                                     <div className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
+                                     <div data-aos="fade-up" className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
                                             <div className='bg-blue-600 text-white shadow-lg shadow-blue-500 rounded-[10px] p-[20px] flex items-center justify-center'>
                                                 <FaLightbulb className='md:text-5xl text-2xl'></FaLightbulb>
                                             </div>
@@ -155,7 +155,7 @@ function AppLeft()
                                             </div>
                                      </div>
 
-                                     <div className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
+                                     <div data-aos="fade-down" className='flex md:flex-row flex-col  gap-[20px] shadow-sm shadow-gray-400 items-center h-[250px] md:h-[190px] border-[1px] p-[30px] md:p-[20px] w-auto md:w-[400px] rounded-[10px]'> 
                                             <div className='bg-blue-600 text-white shadow-lg shadow-blue-500 rounded-[10px] p-[20px] flex items-center justify-center'>
                                                 <FaHandsHelping className=' text-2xl md:text-5xl'></FaHandsHelping>
                                             </div>

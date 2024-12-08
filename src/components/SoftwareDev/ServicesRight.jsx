@@ -11,29 +11,29 @@ function ServicesRight() {
         <div className="bg-gray-100 rounded-[10px] p-[20px] md:p-[30px]">
           <p className="text-2xl text-blue-950 mb-[40px] font-bold ">All Services</p>
           <div className="flex flex-col gap-[10px]">
-            {/* div1 */}
-            <div data-aos="fade-right"className="group hover:bg-blue-600 hover:text-white hover:cursor-pointer text-gray-500 flex justify-between items-center bg-white rounded-[10px] gap-[90px] p-[15px]">
+            {/* Link 1 */}
+            <Link to="/software-development" data-aos="fade-right"className="group hover:bg-blue-600 hover:text-white hover:cursor-pointer text-gray-500 flex justify-between items-center bg-white rounded-[10px] gap-[90px] p-[15px]">
               <p className="font-poppins text-[14px] md:text-[17px] md:whitespace-nowrap">Software Development</p>
               <AiOutlineArrowRight className="text-blue-500 text-[20px] font-[600] group-hover:text-white" />
-            </div>
+            </Link>
 
-            {/* div2 */}
-            <div data-aos="fade-right" className="group flex justify-between items-center hover:text-white hover:bg-blue-600 hover:cursor-pointer text-gray-500 bg-white rounded-[10px] gap-[90px] p-[15px]">
+            {/* Link 2 */}
+            <Link to="/web-development" data-aos="fade-right" className="group flex justify-between items-center hover:text-white hover:bg-blue-600 hover:cursor-pointer text-gray-500 bg-white rounded-[10px] gap-[90px] p-[15px]">
               <p className="font-poppins text-[14px] md:text-[17px]">Web Development</p>
               <AiOutlineArrowRight className="text-blue-500 text-[20px] font-[600] group-hover:text-white" />
-            </div>
+            </Link>
 
-            {/* div3 */}
-            <div data-aos="fade-right"className="group flex justify-between items-center hover:text-white hover:bg-blue-600 hover:cursor-pointer text-gray-500 bg-white rounded-[10px] gap-[90px] p-[15px]">
+            {/* Link 3 */}
+            <Link to="/mobile-app-development" data-aos="fade-right"className="group flex justify-between items-center hover:text-white hover:bg-blue-600 hover:cursor-pointer text-gray-500 bg-white rounded-[10px] gap-[90px] p-[15px]">
               <p className="font-poppins text-[14px] md:text-[17px]">App Development</p>
               <AiOutlineArrowRight className="text-blue-500 text-[20px] font-[600] group-hover:text-white" />
-            </div>
+            </Link>
 
-            {/* div4 */}
-            <div  data-aos="fade-right" className="group flex justify-between items-center hover:text-white hover:bg-blue-600 hover:cursor-pointer text-gray-500 bg-white rounded-[10px] gap-[90px] p-[15px]">
+            {/* Link 4 */}
+            <Link to="/"  data-aos="fade-right" className="group flex justify-between items-center hover:text-white hover:bg-blue-600 hover:cursor-pointer text-gray-500 bg-white rounded-[10px] gap-[90px] p-[15px]">
               <p className="font-poppins text-[14px] md:text-[17px]">Game Development</p>
               <AiOutlineArrowRight className="text-blue-500 text-[20px] font-[600] group-hover:text-white" />
-            </div>
+            </Link>
           </div>
         </div>
 
