@@ -1,6 +1,6 @@
 import ServicesLeft from "./ServicesLeft";
 import ServicesRight from "./ServicesRight";
-import Footer from "../AboutUs/footer";
+
 
 function AllServices()
 {
@@ -9,7 +9,7 @@ function AllServices()
                   <ServicesLeft></ServicesLeft>
                   <ServicesRight></ServicesRight>
           </div>
-          <Footer></Footer>
+          
     </>
 }
 
