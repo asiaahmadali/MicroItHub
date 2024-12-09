@@ -1,7 +1,7 @@
 import NavBar from "../NavBar";
 import CareersHeader from "./CareerHeader";
 import CareerMain from "./CareerMain";
-import Footer from "../AboutUs/footer";
+import Footer from "../Footer";
 
 function Careers()
 {

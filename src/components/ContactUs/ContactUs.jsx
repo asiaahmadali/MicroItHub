@@ -3,7 +3,7 @@ import ContactHeader from "./ContactHeader";
 import ContactMain from "./ContactMain";
 import ContactForm from "./ContactForm";
 import ContactGoogleMap from "./ContactGoogleMap";
-import Footer from "../AboutUs/footer";
+import Footer from "../Footer";
 
 function ContactUs()
 {

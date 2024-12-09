@@ -6,7 +6,7 @@ import MoreInfo from "./More-Info";
 import Process from "./Process";
 import ChooseUs from "./ChooseUs";
 import VideoSection from "./Video-Section";
-import Footer from "../AboutUs/footer";
+import Footer from "../Footer";
 
 function Home()
 {

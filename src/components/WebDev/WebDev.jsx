@@ -2,7 +2,7 @@ import NavBar from "../NavBar";
 import WebHeader from "./WebHeader";
 import WebDevIntro from "./WebDevIntro";
 import ServicesDetails from "./ServicesDetails";
-import Footer from "../AboutUs/footer";
+import Footer from "../Footer";
 import Vision from "./Vision";
 import Banner from "./Banner";
 
